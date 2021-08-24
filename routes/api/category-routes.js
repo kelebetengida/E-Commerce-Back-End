@@ -33,11 +33,11 @@ router.post('/', ({body}, res) => {
   .catch((err)=> res.status(500).json(err))
 });
 
-router.put('/:id', ({body}, res) => {
+router.put('/:id', ({body, params}, res) => {
   // update a category by its `id` value
   Category.update(body,{
     where:{
-      id: req.params.id
+      id: params.id
     }
   }
   )
@@ -52,6 +52,8 @@ router.delete('/:id', (req, res) => {
       id: req.params.id
     }
   })
+  .then ((categories)=> res.json(categories))
+  .catch((err)=> res.status(500).json(err))
 });
 
 module.exports = router;

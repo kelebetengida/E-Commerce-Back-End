@@ -7,11 +7,18 @@ Built the back end for an e-commerce site by configuring a working Express.js AP
 ## Table of Contents
 
 * [Discription]()
+* [Installation]()
 * [User Story]()
 * [Acceptance Criteria]()
 * [Technologies]()
 * [Mock Up]()
 * [Questions]()
+
+
+## User Story
+
+The user cal clone the repo from GitHun and is required to node JS, Express and Sequelize. You can then connect to the data base run "mysql -u root -p" and enter your pasword and user name in a form .env file. You will then have to source the schema.sql database and then run the seed using the comand "npm run seed". you can go head to "npm start" to connect to the server. 
+
 
 ## User Story
 
@@ -38,11 +45,13 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 ## Technologies
 Java Script
-dotenv
+NodeJS
+API
 express
 mysql2
 sequelize
 Insomnia
+
 ## Mock-Up
 
 ![](./Assets/13-orm-homework-demo-01.gif)
