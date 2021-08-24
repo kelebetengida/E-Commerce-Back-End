@@ -15,7 +15,7 @@ Built the back end for an e-commerce site by configuring a working Express.js AP
 * [Questions]()
 
 
-## User Story
+## Instalation 
 
 The user cal clone the repo from GitHun and is required to node JS, Express and Sequelize. You can then connect to the data base run "mysql -u root -p" and enter your pasword and user name in a form .env file. You will then have to source the schema.sql database and then run the seed using the comand "npm run seed". you can go head to "npm start" to connect to the server. 
 
